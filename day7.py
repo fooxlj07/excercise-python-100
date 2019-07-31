@@ -287,3 +287,6 @@ if __name__ == '__main__':
     # print(get_maxes2(['grape', 'apple', 'strawberry', 'waxberry']))
     # print(which_day(1990,3,7))
     # print(yang_hui_triangle(int(input('Yang Hui Level= '))))
+    numbers = [1,5,7,9]
+    numbers[1:3] = [2,3,4]
+    print(numbers)
